@@ -1,0 +1,19 @@
+/*
+ * Theme Name: E-Tourism Child
+ * Description: Child theme du an E-Tourism CSE703072
+ * TODO 4.1: bo sung dong khai bao theme cha (Template: ...)
+ * Version: 1.0.0
+ * Author: Nhom [STT] - CSE703072
+ * Text Domain: etourism-child
+ *
+ * QUAN TRONG: dong "Template: storefront" phai khop CHINH XAC voi ten
+ * thu muc cua theme cha trong wp-content/themes/ (chu thuong).
+ */
+
+/* Quy tac kiem tra cua Bai 11: xoa hoac thay the khi SV3 viet CSS chinh thuc. */
+:root {
+  --etourism-do: #7A1F1F;
+}
+.site-header {
+  border-top: 6px solid var(--etourism-do);
+}
